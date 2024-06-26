@@ -1,0 +1,111 @@
+@import url("https://fonts.googleapis.com/css2?family=Barlow:wght@300;400;500&family=Nunito:wght@600&family=Rajdhani:wght@400;500&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+html,
+body {
+  box-sizing: border-box;
+  background-color: #7FFF00;
+}
+.toggle mode {
+    transition: background-color 0.5s ease;
+}
+
+.dark-mode {
+    background-color: #00FFFF;
+    color: #fff;
+}
+
+header, footer {
+    padding: 20px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: Blue;
+    cursor: pointer;
+}
+.circle {
+        width: 200px;
+        height: 200px;
+        border-radius: 50%;
+        overflow: hidden;
+    }
+    .circle img {
+        width: 100%;
+        height: auto;
+        display: block;
+    }
+
+.title h1 {
+  font-family: "Algerian", sans-serif;
+  font-weight: 500;
+  text-align: center;
+  font-size: 50px;
+  margin-top: 80px;
+  color: #OOOOO;
+  /* text-transform: uppercase; */
+  letter-spacing: 0.1em;
+
+  /* text-shadow: 0 0 10px #00daf7, 0 0 15px #00daf7; */
+}
+
+/* .title h1:after {
+  filter: blur(10px);
+} */
+
+.container .card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: auto;
+  margin-top: 50px;
+  width: 600px;
+  height: 210px;
+  border-radius: 10px;
+  /* background-color: #fff; */
+  border: 3px solid #fa163f;
+}
+
+.container .card .number {
+  font-family: "Roboto Mono", monospace;
+  font-weight: 200px;
+  font-size: 80px;
+  color:  #00008B;
+}
+
+.container .card .btn {
+  font-family: "Calibri", sans-serif;
+  margin-top: 35px;
+}
+
+.container .card .btn .start,
+.container .card .btn .pause,
+.container .card .btn .reset {
+  background-color:   #00008B;
+  color: mintcream;
+  border: 1px solid #fa163f;
+  width: 100px;
+  height: 40px;
+  border-radius: 20px;
+  cursor: pointer !important;
+}
+
+.container .card .btn .start:hover,
+.container .card .btn .pause:hover,
+.container .card .btn .reset:hover {
+  background-color: #fa163f;
+  color: black;
+  /* border: 1px solid #fa163f; */
+  width: 100px;
+  height: 40px;
+  border-radius: 20px;
+  cursor: pointer !important;
+}
+
+.container .card .btn .pause {
+  margin: 0 20px;
+}
